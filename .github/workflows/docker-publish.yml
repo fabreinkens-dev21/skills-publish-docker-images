@@ -33,6 +33,3 @@ jobs:
           tags: |
               ghcr.io/fabreinkens-dev21/skills-publish-docker-images/stackoverflown:main
               ghcr.io/fabreinkens-dev21/skills-publish-docker-images/stackoverflown:${{ github.sha }}
-        run: |
-            docker build . --tag ghcr.io/fabreinkens-dev21/skills-publish-docker-images/stackoverflown:main
-            docker push ghcr.io/fabreinkens-dev21/skills-publish-docker-images/stackoverflown:main
